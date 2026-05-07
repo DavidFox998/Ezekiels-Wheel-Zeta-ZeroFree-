@@ -23,33 +23,4 @@ for p in primerange(2, LIMIT + 1):
     N[chi7(p)] += 1
 for w in [1, 2, 4]:
     print(f"ω = {w}: N = {N[w]:,}, log N / log x = {math.log(N[w])/math.log(LIMIT):.6f}")
- `python   
-`Files`
-```markdown
-### Related Work
-Part of a program using geometric measure theory on Millennium problems.
-
-See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
-
-### Next Steps
-Generalizing to Dirichlet L-functions L(s,χ) for χ mod 7.
-
-### Collaborators Wanted
-Seeking help with: Vaughan’s method for characters, computational verification to x=10^12. 
-Open an Issue if interested.
-- `EzekielsWheel_HausdorffDim_ZetaZeroFree_v2.pdf` — Full paper with Lemma 1, Theorem 1
-- LaTeX source available on request
-
-### Related Work
-Part of a program using geometric measure theory on Millennium problems.
-
-See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
-
-### Next Steps
-Generalizing to Dirichlet L-functions `L(s,χ)` for `χ mod 7`. 
-
-### Collaborators Wanted
-Seeking help with: Vaughan’s method for characters, computational verification to `x=10^12`. 
-Open an Issue if interested.
-### Related Work 
-See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
+ 
