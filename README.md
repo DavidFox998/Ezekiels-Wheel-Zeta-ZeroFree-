@@ -11,8 +11,8 @@ $$
 
 ### Empirical Data
 At `x = 10^8`: `log N_r(x)/log x ≈ 0.807` → `c ≥ 0.193`. 
-Trend suggests `D_H ∈ [0.85, 0.90]`, so `c ≥ 9.93`.
-
+Trend suggests `D_H ∈ [0.85, 0.90]`, so `c ≥ 0.10`..
+`python
 from sympy import primerange
 import math
 LIMIT = 10**7
@@ -23,7 +23,25 @@ for p in primerange(2, LIMIT + 1):
     N[chi7(p)] += 1
 for w in [1, 2, 4]:
     print(f"ω = {w}: N = {N[w]:,}, log N / log x = {math.log(N[w])/math.log(LIMIT):.6f}")
+ `python   
 ### Files
+
+### **While you’re here, add the Related Work section**
+
+After your `Files` section, paste this:
+
+```markdown
+### Related Work
+Part of a program using geometric measure theory on Millennium problems.
+
+See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
+
+### Next Steps
+Generalizing to Dirichlet L-functions L(s,χ) for χ mod 7.
+
+### Collaborators Wanted
+Seeking help with: Vaughan’s method for characters, computational verification to x=10^12. 
+Open an Issue if interested.
 - `EzekielsWheel_HausdorffDim_ZetaZeroFree_v2.pdf` — Full paper with Lemma 1, Theorem 1
 - LaTeX source available on request
 
