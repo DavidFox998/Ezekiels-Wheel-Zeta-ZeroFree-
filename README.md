@@ -24,12 +24,7 @@ for p in primerange(2, LIMIT + 1):
 for w in [1, 2, 4]:
     print(f"ω = {w}: N = {N[w]:,}, log N / log x = {math.log(N[w])/math.log(LIMIT):.6f}")
  `python   
-### Files
-
-### **While you’re here, add the Related Work section**
-
-After your `Files` section, paste this:
-
+`Files`
 ```markdown
 ### Related Work
 Part of a program using geometric measure theory on Millennium problems.
