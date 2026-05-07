@@ -28,3 +28,5 @@ Generalizing to Dirichlet L-functions `L(s,χ)` for `χ mod 7`.
 ### Collaborators Wanted
 Seeking help with: Vaughan’s method for characters, computational verification to `x=10^12`. 
 Open an Issue if interested.
+### Related Work 
+See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
