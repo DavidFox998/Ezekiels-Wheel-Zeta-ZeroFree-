@@ -13,6 +13,16 @@ $$
 At `x = 10^8`: `log N_r(x)/log x ≈ 0.807` → `c ≥ 0.193`. 
 Trend suggests `D_H ∈ [0.85, 0.90]`, so `c ≥ 9.93`.
 
+from sympy import primerange
+import math
+LIMIT = 10**7
+def chi7(p): return pow(p, 2, 7)
+N = {1: 0, 2: 0, 4: 0}
+for p in primerange(2, LIMIT + 1):
+    if p == 7: continue
+    N[chi7(p)] += 1
+for w in [1, 2, 4]:
+    print(f"ω = {w}: N = {N[w]:,}, log N / log x = {math.log(N[w])/math.log(LIMIT):.6f}")
 ### Files
 - `EzekielsWheel_HausdorffDim_ZetaZeroFree_v2.pdf` — Full paper with Lemma 1, Theorem 1
 - LaTeX source available on request
