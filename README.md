@@ -33,7 +33,7 @@ for w in [1, 2, 4]:
 ### Related Work
 Part of a program using geometric measure theory on Millennium problems.
 
-See also: [Hodge Conjecture on CM Abelian Varieties](https://github.com/DavidFox998/hodge-cm-abelian-varieties)
+   See also: [Hodge Conjecture on CM Abelian Varieties: Computational Trilogy](https://github.com/DavidFox998/hodge-cm-trilogy)
 
 ### Next Steps
 Generalizing to Dirichlet L-functions L(s,χ) for χ mod 7.
